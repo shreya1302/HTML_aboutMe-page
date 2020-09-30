@@ -1,0 +1,114 @@
+body{
+    margin:0px auto;
+    width: 100%;
+}
+nav ul li {
+    list-style-type:none;
+    float: left;
+    padding-right: 2.5em;
+    color:#f6f6f6;
+}
+nav ul{
+    float: right;
+}
+nav{
+    width: 100%;
+    height: 50px;
+    background-color:#aaaaaa;
+    position: fixed;
+}
+nav ul li a{
+  text-decoration: none;
+  color: #f6f6f6;
+}
+section{
+    background-color:#f6f6f6 ;
+}
+.home{
+    background-color:#ffc7c7;
+    text-align: center;
+    font-size:38px;
+    color:#f6f6f6;
+    display: table;
+    height: 100vh;
+    width: 100%;
+}
+.inner{
+    display: table-cell;
+    vertical-align: middle;
+}
+.home .inner img{
+    border-radius: 100%;
+    width:250px;
+    height: auto;
+}
+.about{
+    background-image: url('https://image.freepik.com/free-photo/flat-lay-pink-workplace-arrangement-with-copy-space_23-2148404533.jpg');
+    display: table;
+    height: 100vh;
+    width:100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.about .inner{
+    display: table-cell;
+    vertical-align: middle;
+    width: 50%;
+    float: left;
+    padding-top: 75px;
+    padding-left: 50px;
+}
+.about .inner h1{
+    font-size: 42px;;
+}
+.about .inner p{
+    font-size: 28px;
+}
+.education{
+  background-color: #ffe2e2;
+  display: table;
+  height: 70vh;
+  width: 100%;
+}
+.education .inner, .hobbies .inner, .skills .inner{
+  padding: 20px;
+}
+.education h1, .hobbies h1, .skills h1{
+  font-size: 42px;
+}
+
+.education .inner div{
+  width: 30%;
+  margin-left: 150px;
+  margin-right: 5px;
+  float: left;
+  text-align: center;
+}
+.education .inner div img{
+  width: 300px;
+  height: 150px;
+  vertical-align: middle;
+}
+.hobbies{
+  background-color:#ffc7c7 ;
+  display: table;
+  height: 70vh;
+  width: 100%;
+}
+.hobbies .inner div{
+  width: 30%;
+  margin-left: 5px;
+  margin-right: 5px;
+  float: left;
+  text-align: center;
+}
+.hobbies .inner div img{
+  width: 100px;
+  height:auto;
+  vertical-align: middle;
+}
+.skills{
+  background-image: url("https://image.freepik.com/free-photo/pink-soap-bubbles-background_36860-283.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
